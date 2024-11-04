@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+header img{
+height: 10rem;
+}
+header h1{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px #FF66AC;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-decoration: none;
+    background-color: black;
+    padding: 1.4rem;
+
+}
+nav a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: .5rem;
+    border-radius: 1rem;
+    
+    color:#FF66AC;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/images/fondo.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position: top right;
+ 
+padding-bottom: 3.5rem;}
+/* section h6{
+text-align: center;
+} */
+section img{
+    height: 6rem;
+    width: 6rem;
+}
+
+main div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5rem;
+}
+main div section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: grey;
+}
+main div section h6{
+    padding: .2rem;
+}
+ol{
+    background-color: grey;
+    list-style: inside;
+    list-style-type:armenian;
+    padding: 1.3rem;
+    border: 1px solid black;
+}
+table{
+    margin: 1rem;
+    background-color:grey;
+    padding: .5rem;
+    border: 1px solid black;
+}
+tbody,thead{
+    background-color: white;
+}
+td,th{
+    text-align: center;
+    padding: 0 .6rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+fieldset{
+    padding: 1rem;
+}
