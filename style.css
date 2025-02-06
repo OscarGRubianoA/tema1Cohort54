@@ -78,8 +78,7 @@ table {
   padding: 0.5rem;
   border: 1px solid black;
 }
-tbody,
-thead {
+tbody,thead {
   background-color: white;
 }
 
